@@ -1,9 +1,10 @@
 import React from "react";
+import Menubar from "./Menubar/Menubar";
 
 const TotalComponents = () => {
   return (
     <div>
-      <h1>all the components</h1>
+      <Menubar></Menubar>
     </div>
   );
 };
